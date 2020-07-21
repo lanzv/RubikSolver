@@ -7,7 +7,7 @@ The aim of this project is to show steps solving a Rubik's cube. The idea of our
 
 ## Structure of Cube
 
-
+![Structure](https://github.com/lanzv/RubikSolver/blob/master/docs/images/structure.png)
 
     rubik(W1,W2,W3,W4,W5,W6,W7,W8,W9,
     G1,G2,G3,G4,G5,G6,G7,G8,G9,
@@ -25,19 +25,25 @@ The aim of this project is to show steps solving a Rubik's cube. The idea of our
 
 ## Moves 
 
-#### clockwise_UP
+### clockwise_UP
+![clockwise_UP](https://github.com/lanzv/RubikSolver/blob/master/docs/images/clockwise_UP.png)
    
-#### clockwise_DOWN
+### clockwise_DOWN
+![clockwise_DOWN](https://github.com/lanzv/RubikSolver/blob/master/docs/images/clockwise_DOWN.png)
 
-#### clockwise_LEFT
+### clockwise_LEFT
+![clockwise_LEFT](https://github.com/lanzv/RubikSolver/blob/master/docs/images/clockwise_LEFT.png)
 
-#### clockwise_RIGHT
+### clockwise_RIGHT
+![clockwise_RIGHT](https://github.com/lanzv/RubikSolver/blob/master/docs/images/clockwise_RIGHT.png)
 
-#### clockwise_FRONT
+### clockwise_FRONT
+![clockwise_FRONT](https://github.com/lanzv/RubikSolver/blob/master/docs/images/clockwise_FRONT.png)
 
-#### clockwise_BACK
+### clockwise_BACK
+![clockwise_BACK](https://github.com/lanzv/RubikSolver/blob/master/docs/images/clockwise_BACK.png)
 
-#### counter_clockwise_MOVE
+### !!! counter_clockwise_MOVE !!!
 where **MOVE** is one of {**UP**,**DOWN**,**LEFT**,**RIGHT**,**FRONT**,**BACK**}. It's just an inverse move for the **clockwise_MOVE**.
 
 
@@ -109,11 +115,11 @@ where **MOVE** is one of {**UP**,**DOWN**,**LEFT**,**RIGHT**,**FRONT**,**BACK**}
 
 This project has five different approaches to solve Rubik's Cube:
  
-  1) BFS
-  2) A* 1
-  3) A* 2
-  4) A* 3
-  5) "Human algorithm"
+  1) ***BFS***
+  2) ***A**** ***1***
+  3) ***A**** ***2***
+  4) ***A**** ***3***
+  5) ***"Human algorithm"***
 
 #### BFS based algorithm 
 The simplest algorithm. The algorithm uses BFS to find solved situation using all possible moves. It turns out that this approach is the most effective one. 
