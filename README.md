@@ -142,3 +142,19 @@ This approach tries simulate steps we now from human algorithm. So there is a fe
 - white side, first, second a third level of cube and yellow side
 
 There is not used any condition, still the BFS is used. But there are lists of moves that are used in this algorithm all the time. So we are using those lists as a one move instead of the real number of moves (for example 4). This algorithm is not so good yet, but it can be improved with few more lists of moves. And also with conditions like "if the little cube is between those two cubes, use this lists of moves". 
+
+
+## How to use tests
+- using command line
+1) Run swipl in the program directory:
+
+	`swipl`
+	
+2) Load the solver.pl:
+
+	`?- ["solver.pl"].`
+	
+3) Load and run all tests:
+
+	`?- ["tests/all_tests.pl"].`
+	
