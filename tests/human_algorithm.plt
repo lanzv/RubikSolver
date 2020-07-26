@@ -1,6 +1,6 @@
 :- begin_tests(human_algorithm).
 
-:- use_module("../solver.pl").
+
 
 
 test('solve_human') :- 
