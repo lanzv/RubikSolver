@@ -61,7 +61,7 @@ where **MOVE** is one of {**UP**,**DOWN**,**LEFT**,**RIGHT**,**FRONT**,**BACK**}
   - `solve_basic(+Rubik'sCube,-Steps).`
   - `solve_Astar_1(+Rubik'sCube,-Steps).`
   - `solve_Astar_2(+Rubik'sCube,-Steps).`
-  - `solve_human(+Rubik'sCube,-Steps).`
+  - `solve_Astar_3(+Rubik'sCube,-Steps).`
   - `solve_human(+Rubik'sCube,-Steps).`
 
 #### genereting cube commands
